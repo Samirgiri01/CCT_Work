@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 95px;
+    width: 100%;
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    gap: 2px;
+    width: 20%;
+}
+.navitem{
+    height: 95px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 35px;
+    width: 120px;
+    background-color:#363D7A;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+.btn a{
+    color: #f9f9ff;
+}
